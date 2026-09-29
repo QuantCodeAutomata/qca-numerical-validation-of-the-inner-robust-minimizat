@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
+dist/
+build/
+.eggs/
+.Python
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Testing / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# IDE
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project — never commit raw Massive/market data dumps
+data/*.csv
+data/*.json
+data/*.parquet
+data/*.h5
+data/*.hdf5
+
+# Logs and temp
+*.log
+*.tmp
+*.bak
+
+# MLflow
+mlruns/
+mlartifacts/
